@@ -1,0 +1,24 @@
+.user_card{
+    display: inline-table;
+    background-color:rgba(214, 211, 211, 0.466);
+    margin: 25px;
+    padding: 50px;
+    height: 180px;
+    width: 250px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+.userlist h1{
+    text-align: center;
+    margin: 0;
+}
+.userlist button{
+    margin-left: 80px;
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(199, 73, 51, 0.644);
+    
+}

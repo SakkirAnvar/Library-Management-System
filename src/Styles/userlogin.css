@@ -1,0 +1,41 @@
+.userlogin{
+    display: flex;
+    justify-content: center;
+    margin: 128px;
+    
+    
+}
+.userCard{
+   text-align: center;
+   padding: 40px;
+   background-color: rgb(245, 245, 245);
+   border-radius: 50px;
+   margin-left: 100px;
+}
+.userform_input input{
+    margin: 10px;
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.userform_input button{
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 280px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:  rgba(40, 143, 31, 0.644);
+}
+.userform_input a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
