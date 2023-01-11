@@ -52,7 +52,7 @@ const AddBook = () => {
                         <input value={thumbnailUrl} onChange={(e)=>setThumbnailUrl(e.target.value)} type="text" required placeholder="Thumbnail Url of the book"/>
                     </div>
                     <button>Add Book</button>
-                </form>
+                </form>   
             </div>
         </div>
      );

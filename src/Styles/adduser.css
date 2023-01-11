@@ -1,0 +1,25 @@
+.adduser{
+    text-align: center;
+    margin: 130px 450px 50px 450px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.userform input{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 8px;
+}
+.userform button{
+    border: none;
+    background-color: rgb(141, 44, 27);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}

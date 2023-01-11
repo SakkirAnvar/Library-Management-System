@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../Styles/adduser.css'
 
 const AddUser = () => {
     let [name,setName] = useState("")
@@ -24,7 +25,7 @@ const AddUser = () => {
     return ( 
         <div className="adduser">
             <h1>Add a user</h1>
-            <div className="form">
+            <div className="userform">
             <form action="" onSubmit={handleSubmit}>
                 <div className="name">
                     <input type="name" required value={name} onChange={ (e)=> setName(e.target.value)} placeholder="Enter Name"/>

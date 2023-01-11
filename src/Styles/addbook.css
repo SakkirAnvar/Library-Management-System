@@ -1,4 +1,42 @@
 .addbook{
     text-align: center;
+    margin: 50px 450px 50px 450px;
+    height: 460px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid black;
+   
     
 }
+.form input{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 8px;
+    
+    
+}
+.form textarea{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 8px;
+}
+.addbook h1{
+    margin: 10px 0px;
+    /* margin-top: 50px; */
+}
+.form button{
+    border: none;
+    background-color: rgb(141, 44, 27);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
