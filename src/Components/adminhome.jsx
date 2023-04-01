@@ -6,6 +6,7 @@ import AdminNavbar from "./adminnavbar";
 import BookList from "./booklist";
 import ReadBook from "./readbook";
 import UserList from "./userlist";
+import PageNotFound from "./error";
 
 
 const AdminHome = () => {
@@ -19,6 +20,7 @@ const AdminHome = () => {
                 <Route path="/booklist/:id" element={<ReadBook/>}/>
                 <Route path="/adduser"element={<AddUser/>}/>
                 <Route path="/addbook" element={<AddBook/>}/>
+                <Route path='/*' element={<PageNotFound/>}/>
             </Routes>
         </div>
      );

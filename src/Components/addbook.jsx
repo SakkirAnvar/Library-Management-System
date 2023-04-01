@@ -27,6 +27,8 @@ const AddBook = () => {
     }
     return ( 
         <div className="addbook">
+            <img height="350" width="850" src="../images/addbook.png" alt="" />
+            <div className="bookmain">
             <h1>Add a book</h1>
             <div className="form">
                 <form action="" onSubmit={handleSubmit}>
@@ -52,7 +54,8 @@ const AddBook = () => {
                         <input value={thumbnailUrl} onChange={(e)=>setThumbnailUrl(e.target.value)} type="text" required placeholder="Thumbnail Url of the book"/>
                     </div>
                     <button>Add Book</button>
-                </form>   
+                </form>  
+                </div> 
             </div>
         </div>
      );

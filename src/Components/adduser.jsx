@@ -24,6 +24,10 @@ const AddUser = () => {
     }
     return ( 
         <div className="adduser">
+            <div className="userimg">
+                <img width="520" src="../images/adduser.png" alt="" />
+            </div>
+            <div className="usermain">
             <h1>Add a user</h1>
             <div className="userform">
             <form action="" onSubmit={handleSubmit}>
@@ -41,6 +45,7 @@ const AddUser = () => {
                 </div>
                 <button>Add User</button>
             </form>
+            </div>
             </div>
         </div>
      );

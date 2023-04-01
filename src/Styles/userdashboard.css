@@ -1,0 +1,85 @@
+.usercontent1{
+    background-color: white;
+    margin: 50px 250px 50px 200px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px  rgb(207, 205, 205);
+}
+.usercontent2{
+   background-image: url('../../public/images/userdash.jpeg');
+   height: 250px; 
+   padding-top: 50px;
+   width: 900px;
+   margin: 100px;
+   margin-left: 200px;
+   box-shadow: 0px 0px 10px  rgb(207, 205, 205);
+   
+}
+.usercontent1 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: 3px underline  #1DB9FF ;
+    
+}
+.usercontent1 p{
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+.ucnt2{
+    background-color: white;
+    padding: 50px;
+    margin-inline: 100px;
+    margin-top: 100px; 
+    box-shadow: 0px 0px 10px  rgb(207, 205, 205);
+     
+}
+.ucnt2 h6{
+    margin: 0;
+}
+.ucnt2 h1{
+    text-decoration: 3px underline  #1DB9FF ;
+    font-family: sans-serif;
+}
+.ucnt2 p{
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+.usercontent3{
+    background-image: url('../../public/images/userdash3.svg');
+    height: 50vh;
+    padding-top: 50px;
+    margin-top: 250px;
+    font-family: sans-serif;
+}
+.ucnt3{
+    text-align: center;
+    padding: 40px;
+    background-color: #1DB9FF;
+    color: white;
+   
+}
+.ucnt2 button{
+    padding: 12px;
+    background-color: #1DB9FF;
+    color: white;
+    border: none;
+    margin-left: 500px;
+    
+}
+.ucnt3 button{
+    padding: 12px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    margin-left: 30px;
+    
+}
+.ucnt3 h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.ucnt3 h3{
+    font-weight: 200;
+}

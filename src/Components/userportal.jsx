@@ -3,6 +3,7 @@ import BookList from "./booklist";
 import ReadBook from "./readbook";
 import UserDashboard from "./userdashboard";
 import UserNavbar from "./usernavbar";
+import PageNotFound from "./error";
 const UserPortal = () => {
     return ( 
         <div className="userportal">
@@ -11,6 +12,7 @@ const UserPortal = () => {
                 <Route path="/" element={<UserDashboard/>}/>
                 <Route path="/booklist" element={<BookList/>}/>
                 <Route path="/booklist/:id" element={<ReadBook/>}/>
+                <Route path='/*' element={<PageNotFound/>}/>
             </Routes>
         </div>
      );
